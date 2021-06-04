@@ -1,1 +1,185 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+/* font-family: 'Josefin Sans', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+}
+
+.attribution {
+  display: none;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.logo {
+  width: 100%;
+  min-height: 12vh;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10%;
+}
+
+.img {
+  width: 100%;
+  display: block;
+}
+
+.img img {
+  width: 100%;
+}
+
+.text-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headers {
+  text-align: center;
+  line-height: 1.1;
+  padding-top: 4rem;
+}
+
+.header-1,
+.header-2,
+.header-3 {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.header-1 {
+  color: #ce9797;
+  font-weight: 300;
+}
+
+.description-button-wrapper {
+  width: 80%;
+}
+
+.description {
+  color: #ce9797;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
+
+/* Form wrapper styling */
+.search-wrapper {
+  width: 100%;
+  margin: 50px auto;
+  border-radius: 40px;
+  background: transparent;
+  border: 2px solid #ce9797;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* Form text input */
+.search-wrapper input {
+  padding-left: 20px;
+  width: 80%;
+  height: 20px;
+  padding: 10px 5px;
+  float: left;
+  border: 0;
+  background: #fff;
+  border-radius: 40px;
+  border-top-style: none;
+}
+
+.search-wrapper input:focus {
+  outline: 0;
+  background: #fff;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.8) inset;
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.8) inset;
+}
+
+.search-wrapper input {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Form submit button */
+.search-wrapper button {
+  overflow: visible;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: right;
+  cursor: pointer;
+  height: 40px;
+  width: 20%;
+  color: #fff;
+  text-transform: uppercase;
+  background: #ce9797;
+  border: none;
+  border-radius: 50px;
+}
+
+.search-wrapper button img {
+  width: 20px;
+  height: 30px;
+}
+
+.search-wrapper button:active,
+.search-wrapper button:focus {
+  background: #198cff;
+  outline: 0;
+}
+
+.search-wrapper button:focus:before,
+.search-wrapper button:active:before {
+  border-right-color: #c42f2f;
+}
+/*# sourceMappingURL=main.css.map */
