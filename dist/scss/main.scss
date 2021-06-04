@@ -5,6 +5,27 @@ body {
   min-height: 100vh;
 }
 
+.wrapper-full {
+  display: flex;
+}
+.mobile-wrapper {
+  width: 50%;
+  height: 100%;
+}
+
+.text-wrapper {
+  align-items: flex-start;
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-text-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .logo {
   width: 100%;
   min-height: 12vh;
@@ -44,11 +65,11 @@ body {
   font-weight: 400;
   letter-spacing: 8px;
   text-transform: uppercase;
-}
 
-.header-1 {
-  color: $softRed;
-  font-weight: 300;
+  .header-1 {
+    color: $softRed;
+    font-weight: 300;
+  }
 }
 
 .description-button-wrapper {
@@ -167,38 +188,20 @@ body {
     display: none;
   }
 
-  .wrapper-full {
-    display: flex;
-  }
-  .mobile-wrapper {
-    width: 50%;
-    height: 100%;
-  }
-
-  .text-wrapper {
-    align-items: flex-start;
-    height: 88vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .title-text-wrapper {
-    width: 70%;
-    margin: 0 auto;
-  }
-
   .logo {
     padding-left: 0;
   }
 
   .description {
     text-align: left;
+    width: 90%;
+    font-size: 1.3rem;
   }
 
   .header-1,
   .header-2,
   .header-3 {
     text-align: left;
+    font-size: 4.5rem;
   }
 }
